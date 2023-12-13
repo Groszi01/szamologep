@@ -3,5 +3,5 @@ console.log("Válaszd ki a kivánt műveletet \n 1. Összeadás \n 2. Kivonás \
 muvelet = prompt("Add meg a műveletet: ")
 
 if(muvelet == 1) {
-    print("Hello")
+    console.log("Hello")
 }
