@@ -7,32 +7,32 @@ num2 = prompt("Add meg a második számot: ")
 // FUNCTIONÖK
 
 function összeadás(x, y) {
-    x + y
+    console.log(x + y)
 }
 
 function kivonás(x, y) {
-    x - y
+    console.log(x - y)
 }
 
 function szorzás(x, y) {
-    x * y
+    console.log(x * y)
 }
 
 function osztás(x, y) {
-    x / y
+    console.log(x / y)
 }
 
 
 
 if(muvelet == 1) {
-    console.log(összeadás(num1, num2))
+    összeadás(num1, num2)
 }
 if(muvelet == 2) {
-    console.log(kivonás(num1, num2))
+    kivonás(num1, num2)
 }
 if(muvelet == 3) {
-    console.log(szorzás(num1, num2))
+    (szorzás(num1, num2)
 }
 if(muvelet == 4) {
-    console.log(osztás(num1, num2))
+    osztás(num1, num2)
 }
