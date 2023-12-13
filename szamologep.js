@@ -3,15 +3,36 @@ console.log("Válaszd ki a kivánt műveletet \n 1. Összeadás \n 2. Kivonás \
 muvelet = prompt("Add meg a műveletet: ")
 num1 = prompt("Add meg az első számot: ")
 num2 = prompt("Add meg a második számot: ")
+
+// FUNCTIONÖK
+
+function összeadás(x, y) {
+    x + y
+}
+
+function kivonás(x, y) {
+    x - y
+}
+
+function szorzás(x, y) {
+    x * y
+}
+
+function osztás(x, y) {
+    x / y
+}
+
+
+
 if(muvelet == 1) {
-    console.log("Hello")
+    összeadás(num1, num2)
 }
 if(muvelet == 2) {
-    console.log("Hello")
+    kivonás(num1, num2)
 }
 if(muvelet == 3) {
-    console.log("Hello")
+    szorzás(num1, num2)
 }
 if(muvelet == 4) {
-    console.log("Hello")
+    osztás(num1, num2)
 }
