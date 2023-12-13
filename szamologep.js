@@ -25,14 +25,14 @@ function osztás(x, y) {
 
 
 if(muvelet == 1) {
-    összeadás(num1, num2)
+    console.log(összeadás(num1, num2))
 }
 if(muvelet == 2) {
-    kivonás(num1, num2)
+    console.log(kivonás(num1, num2))
 }
 if(muvelet == 3) {
-    szorzás(num1, num2)
+    console.log(szorzás(num1, num2))
 }
 if(muvelet == 4) {
-    osztás(num1, num2)
+    console.log(osztás(num1, num2))
 }
