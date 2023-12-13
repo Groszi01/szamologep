@@ -31,7 +31,7 @@ if(muvelet == 2) {
     kivonás(num1, num2)
 }
 if(muvelet == 3) {
-    (szorzás(num1, num2)
+    szorzás(num1, num2)
 }
 if(muvelet == 4) {
     osztás(num1, num2)
